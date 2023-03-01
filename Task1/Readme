@@ -1,1 +1,7 @@
 
+
+gcc version: 9.5.0
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 10
+
+gcc -pthread -o main.o main.c timer.c input_parser.c
