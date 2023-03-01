@@ -95,7 +95,7 @@ int startTimerLoop()
     acc = malloc(sizeof (struct activity_s));
     while (1) 
     {
-        runTimer(100);
+        runTimer(SPEED_FACTOR);
         printTime();
 
         if(getActivityName(acc) == SUCCESFULL)
